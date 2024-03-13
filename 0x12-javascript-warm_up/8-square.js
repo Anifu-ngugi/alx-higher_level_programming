@@ -5,8 +5,7 @@ if (!argum) {
 } else {
   for (let i = 0; i < argum; i++) {
     let row = '';
-    for (let j = 0; j < argum; j++) 
-    row += 'X';
+    for (let j = 0; j < argum; j++) row += 'X';
     console.log(row);
   }
 }
